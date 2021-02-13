@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+/* Navbar */
+.navbar {
+  background: #eaeef1;
+  box-shadow: 20px 20px 60px #c7cacd, -20px -20px 60px #ffffff;
+  height: 70px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar ul {
+  display: flex;
+  padding-top: 1.5em;
+}
+
+.navbar a {
+  color: rgb(138, 129, 129);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #b8c4ce solid;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+/* showcase */
+.showcase {
+  background-image: url(../image/photographer.jpg);
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  position: relative;
+}
+
+.showcase-content {
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+button {
+  border-radius: 3px;
+  background: #d9e7f2;
+  box-shadow: 20px 20px 60px #8f98a0, -20px -20px 60px #ffffff;
+}
+footer {
+  background: #eaeef1;
+  box-shadow: 20px 20px 60px #c7cacd, -20px -20px 60px #ffffff;
+  height: 80px;
+  padding-left: 15px;
+  z-index: 1;
+}
+h2 {
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: right;
+}
+
+.social-media a {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  margin: 0 15px;
+  border-radius: 8px;
+  background: #eaeef1;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 20px 20px 60px #c7cacd, -20px -20px 60px #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: transform 0.5s;
+}
+
+a i {
+  font-size: 35px;
+  color: #777;
+}
+.social-media a:hover {
+  box-shadow: 20px 20px 60px #8f98a0, -20px -20px 60px #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  transform: translateY(2px);
+}
+.social-media a:hover .fa-facebook {
+  color: #3b5998;
+}
+.social-media a:hover .fa-twitter {
+  color: #00acee;
+}
+
+.social-media a:hover .fa-instagram {
+  color: #8a3ab9;
+}
+.social-media a:hover .fa-linkedin-in {
+  color: #0e76a8;
+}
