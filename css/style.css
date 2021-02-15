@@ -44,7 +44,7 @@ a {
 
 /* showcase */
 .showcase {
-  background-image: url(../image/photographer.jpg);
+  background-image: url(../image/social-media-for-photographers-follow-1.jpg);
   height: 1000px;
   background-position: center;
   background-size: cover;
@@ -61,11 +61,7 @@ a {
   transform: translate(-50%, -50%);
   color: white;
 }
-button {
-  border-radius: 3px;
-  background: #d9e7f2;
-  box-shadow: 20px 20px 60px #8f98a0, -20px -20px 60px #ffffff;
-}
+
 footer {
   background: #eaeef1;
   box-shadow: 20px 20px 60px #c7cacd, -20px -20px 60px #ffffff;
